@@ -22,7 +22,7 @@ Route::get('login', function () {
 });
 
 Route::get('ikuh', function () {
-    return view('layout/ikuh');
+    return view('ikuh');
 });
 
 Route::get('glosarium', function () {

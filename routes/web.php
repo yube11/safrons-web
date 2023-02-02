@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('login', function () {
-    return view('layout/login');
+    return view('login');
 });
 
 Route::get('ikuh', function () {
@@ -26,13 +26,13 @@ Route::get('ikuh', function () {
 });
 
 Route::get('glosarium', function () {
-    return view('layout/glosarium');
+    return view('glosarium');
 });
 
 Route::get('register', function () {
-    return view('layout/register');
+    return view('register');
 });
 
 Route::get('lebih-lanjut', function () {
-    return view('layout/lebih-lanjut');
+    return view('lebih-lanjut');
 });

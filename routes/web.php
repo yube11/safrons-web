@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
+});
+
+Route::get('login', function () {
+    return view('layout/login');
+});
+
+Route::get('ikuh', function () {
+    return view('layout/ikuh');
+});
+
+Route::get('glosarium', function () {
+    return view('layout/glosarium');
+});
+
+Route::get('register', function () {
+    return view('layout/register');
+});
+
+Route::get('lebih-lanjut', function () {
+    return view('layout/lebih-lanjut');
 });
